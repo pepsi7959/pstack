@@ -1,0 +1,14 @@
+{
+  "name": "@pepsi7959/pstack",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "pstack for opencode. No hardcoded models.",
+  "keywords": ["opencode", "opencode-plugin", "ai-agents"],
+  "repository": { "type": "git", "url": "git+https://github.com/pepsi7959/pstack.git" },
+  "homepage": "https://github.com/pepsi7959/pstack#readme",
+  "bugs": "https://github.com/pepsi7959/pstack/issues",
+  "files": ["plugin", "skills", "agents", "docs", "assets", "CHANGELOG.md", "LICENSE-deslop"],
+  "publishConfig": { "access": "public" },
+  "exports": { "./server": "./plugin/index.js" }
+}
